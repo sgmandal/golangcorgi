@@ -1,5 +1,7 @@
 package golangcorgi
 
+import "fmt"
+
 func Print() string {
-	return "string this is"
+	return fmt.Sprintf("string this is")
 }
